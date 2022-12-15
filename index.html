@@ -1,0 +1,665 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title> Personal Category Bootstrap Responsive Website Template | Home : W3layouts</title>
+
+  <!-- google fonts -->  
+  <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+<!-- header -->
+<header id="site-header" class="fixed-top">
+  <div class="container">
+      <nav class="navbar navbar-expand-lg stroke">
+          <a class="navbar-brand" href="index.html">
+              <span class="fa fa-laptop"></span> Prasad N
+          </a>
+          <!-- if logo is image enable this   
+      <a class="navbar-brand" href="#index.html">
+          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+      </a> -->
+          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+              data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+              <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+              </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item @@about__active">
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item @@contact__active">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- toggle switch for light and dark theme -->
+          <div class="mobile-position">
+              <nav class="navigation">
+                  <div class="theme-switch-wrapper">
+                      <label class="theme-switch" for="checkbox">
+                          <input type="checkbox" id="checkbox">
+                          <div class="mode-container">
+                              <i class="gg-sun"></i>
+                              <i class="gg-moon"></i>
+                          </div>
+                      </label>
+                  </div>
+              </nav>
+          </div>
+          <!-- //toggle switch for light and dark theme -->
+      </nav>
+  </div>
+</header>
+<!-- //header -->
+
+<!-- banner section -->
+<section id="home" class="w3l-banner py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-12 mt-lg-0 mt-4">
+                <span class="title-small">Hello</span>
+                <h1 class="mb-2 title"> <span>I'm</span> Prasad N </h1>
+                <p>a student who is still seeking new ways of technology and learning it every day.</p>
+                <div class="mt-sm-5 mt-4">
+                    <a class="btn btn-primary btn-style mr-2" href="contact.html"> contact</a>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-10 mt-lg-0 mt-4">
+                <div class="img-effect text-lg-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGCAqbUMSsiIGUkQUJJWo5gGunPuLAMORxw&usqp=CAU" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //banner section -->
+
+<!-- home page about section -->
+<section class="w3l-index3" id="about">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="position-relative">
+                        <img src="data:image/jpeg;base64,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" alt="" class="radius-image img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 mt-lg-0 mt-5">
+                    <h5 class="title-small mb-2">Who am i?</h5>
+                    <h3 class="title-big">I'm Prasad N, a student and a web designer</h3>
+                    <p class="mt-4">I enjoy taking complex problems and turning them into simple and beautiful interface designs.I also love the logic and structure of coding and always strive to write elegant and efficient code.whether it be HTML,CSS orJQuery.<br>
+                    <br>
+                  when i'n not coding or designing,you will find me in college or in libraries. </p>
+                    <a href="#download" class="btn btn-style btn-primary mt-lg-5 mt-4">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //home page about section -->
+
+<!-- home page second section -->
+<div class="py-5 w3l-resume">
+    <div class="container py-lg-5 py-3">
+        <h5 class="title-small mb-2"> My resume</h5>
+        <h3 class="title-big mb-4">I Would Love to make your Ideas real </h3>
+        <p>I love designing and coding  and have been working on my google since 2020. You can download my
+            resume in order to learn the details of my professional life as a designer and coder. Contact me and
+            we will discuss your projects!</p>
+        <div class="mt-5">
+            <a href="#download" class="btn btn-style btn-primary">Download resume</a>
+        </div>
+    </div>
+</div>
+<!-- //home page second section -->
+
+<!-- home page services section -->
+<section class="w3l-services">
+    <div class="blog py-5" id="services">
+        <div class="container py-lg-5">
+            <h5 class="title-small text-center">Services</h5>
+            <h3 class="title-big text-center mb-sm-5 mb-4">What I do for you</h3>
+            <div class="row">
+                <div class="col-md-12 mx-auto pr-2">
+                    <div class="owl-two owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <div class="box-wrap">
+                                    <div class="icon">
+                                        <span class="fa fa-pencil-square-o"></span>
+                                    </div>
+                                    <h4 class="number">01</h4>
+                                    <h4><a href="#url">analyst</a></h4>
+                                    <p>analysing each elemnts and finding solutions for each problems.</p>
+                                    <a href="#read" class="read">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="box-wrap">
+                                    <div class="icon">
+                                      <span class="fa fa-laptop"></span>
+                                    </div>
+                                    <h4 class="number">02</h4>
+                                    <h4><a href="#url">creator</a></h4>
+                                    <p>Creating new aspects of technology and finding vast upportuinities.</p>
+                                      <a href="#read" class="read">Read more</a>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="box-wrap">
+                                    <div class="icon">
+                                      <span class="fa fa-area-chart"></span>
+                                    </div>
+                                    <h4 class="number">03</h4>
+                                    <h4><a href="#url">Entrepreneur</a></h4>
+                                    <p>Letting all my potential out to fulfiull my works and projects.</p>
+                                      <a href="#read" class="read">Read more</a>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="box-wrap">
+                                    <div class="icon">
+                                        <span class="fa fa-pencil-square-o"></span>
+                                    </div>
+                                    <h4 class="number">04</h4>
+                                    <h4><a href="#url">Gamer</a></h4>
+                                    <p>experiencing new ways online games.</p>
+                                    <a href="#read" class="read">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="box-wrap">
+                                    <div class="icon">
+                                      <span class="fa fa-laptop"></span>
+                                    </div>
+                                    <h4 class="number">05</h4>
+                                    <h4><a href="#url">app development</a></h4>
+                                    <p>Developing different apps using different languages.</p>
+                                      <a href="#read" class="read">Read more</a>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="box-wrap">
+                                    <div class="icon">
+                                      <span class="fa fa-area-chart"></span>
+                                    </div>
+                                    <h4 class="number">06</h4>
+                                    <h4><a href="#url">advertisement</a></h4>
+                                    <p>Adverstising any products through social networks.</p>
+                                      <a href="#read" class="read">Read more</a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 text-more">
+                <p class="mt-4 pt-3 sample text-center">
+                    <a href="services.html">View All Services <span class="pl-2 fa fa-long-arrow-right"></span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //home page services section -->
+
+<!-- stats -->
+<section class="w3l-stats py-lg-5 py-4" id="stats">
+    <div class="gallery-inner container py-md-5 py-4">
+        <div class="row stats-con">
+            <div class="col-sm-3 col-6 stats_info counter_grid">
+                <span class="fa fa-laptop"></span>
+                <p class="counter">5</p>
+                <h4>Completed projects</h4>
+            </div>
+            <div class="col-sm-3 col-6 stats_info counter_grid1">
+                <span class="fa fa-hourglass-end"></span>
+                <p class="counter">3</p>
+                <h4>In processes</h4>
+            </div>
+            <div class="col-sm-3 col-6 stats_info counter_grid mt-sm-0 mt-5">
+                <span class="fa fa-gift"></span>
+                <p class="counter">2</p>
+                <h4>Achievemnents</h4>
+            </div>
+            <div class="col-sm-3 col-6 stats_info counter_grid2 mt-sm-0 mt-5">
+                <span class="fa fa-smile-o"></span>
+                <p class="counter">105</p>
+                <h4>Happy Customers</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //stats -->
+<!-- testimonials -->
+<section class="w3l-clients" id="clients">
+    <!-- /grids -->
+    <div class="cusrtomer-layout py-5">
+        <div class="container py-lg-5 py-md-4">
+            <div class="heading text-center mx-auto">
+                <h6 class="title-small text-center">Reviews</h6>
+                <h3 class="title-big mb-md-5 mb-4">What my customers think about Me </h3>
+            </div>
+            <!-- /grids -->
+            <div class="testimonial-width">
+                <div id="owl-demo1" class="owl-carousel owl-theme mb-4">
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <q>He is very hard and innovative man.and he has my full support.</q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img"><img src="data:image/jpeg;base64,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" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>Abhiram anand</h3>
+                                        <p class="indentity">parappuram,mannarkkad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <q>no words to exprress his skills,really brilliant and highly motivated person he is.</q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img"><img src="data:image/jpeg;base64,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" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>Aswin gs</h3>
+                                        <p class="indentity">Sivankunnu,arakurssi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <q>he is extra ordinary.</q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>Rajeesh</h3>
+                                        <p class="indentity">kodathippadi,mannarkkad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <q>its was pleasure to work under him,he deserves more/q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img"><img src="assets/images/team4.jpg" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>narendra modi</h3>
+                                        <p class="indentity">gujarat,india</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <q>it was a nice time spending with him.</q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>varun</h3>
+                                        <p class="indentity">cherpulassey,kerala</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <q>he has more intelligence than albert einstein,i swear.</q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>albert einstein</h3>
+                                        <p class="indentity">Seattle, Washington</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /grids -->
+    </div>
+    <!-- //grids -->
+</section>
+<!-- //testimonials -->
+
+>
+<!-- //home page video popup section -->
+
+ <!-- freelance hire me -->
+ <section class="w3l-grid-quote text-center py-5">
+   <div class="container py-3">
+     <h6 class="title-small">Get in touch</h6>
+     <h3 class="title-big mb-md-5 mb-4">Let's start a Project! Hire Me.</h3>
+     <a href="contact.html" class="btn btn-style btn-primary mr-2">Hire Me </a>
+     <a href="contact.html" class="btn btn-style btn-outline-primary">Get in touch</a>
+   </div>
+ </section>
+ <!-- //freelance hire me -->
+ 
+<!-- Footer -->
+<section class="w3l-footer py-sm-5 py-4">
+  <div class="container">
+    <div class="footer-content">
+      <div class="row">
+        <div class="col-lg-8 footer-left">
+          <p class="m-0">prasad © Copyright 2020. Design by <a href="https://w3layouts.com">W3layouts</a></p>
+        </div>
+        <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
+          <ul class="social m-0 p-0">
+            <li><a href="#facebook"><span class="fa fa-facebook-official"></span></a></li>
+            <li><a href="#linkedin"><span class="fa fa-linkedin-square"></span></a></li>
+            <li><a href="#instagram"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fa fa-angle-up"></span>
+  </button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
+</section>
+<!-- //Footer -->
+
+<!-- all js scripts and files here -->
+
+<script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
+
+<script src="assets/js/jquery-3.3.1.min.js"></script><!-- default jQuery -->
+
+<!-- /typig-text-->
+<script>
+  const typedTextSpan = document.querySelector(".typed-text");
+  const cursorSpan = document.querySelector(".cursor");
+
+  const textArray = ["UI/UX Designer", "Freelancer", "Web developer"];
+  const typingDelay = 200;
+  const erasingDelay = 10;
+  const newTextDelay = 100; // Delay between current and next text
+  let textArrayIndex = 0;
+  let charIndex = 0;
+
+  function type() {
+    if (charIndex < textArray[textArrayIndex].length) {
+      if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+      typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, typingDelay);
+    } else {
+      cursorSpan.classList.remove("typing");
+      setTimeout(erase, newTextDelay);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      // add class 'typing' if there's none
+      if (!cursorSpan.classList.contains("typing")) {
+        cursorSpan.classList.add("typing");
+      }
+      typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
+      charIndex--;
+      setTimeout(erase, erasingDelay);
+    } else {
+      cursorSpan.classList.remove("typing");
+      textArrayIndex++;
+      if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+      setTimeout(type, typingDelay);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+    if (textArray.length) setTimeout(type, newTextDelay + 250);
+  });
+</script>
+<!-- //typig-text-->
+
+<!-- services owlcarousel -->
+<script src="assets/js/owl.carousel.js"></script>
+
+<!-- script for services -->
+<script>
+  $(document).ready(function () {
+    $('.owl-two').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: false,
+      responsiveClass: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 1000,
+      autoplayHoverPause: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        480: {
+          items: 1,
+          nav: false
+        },
+        700: {
+          items: 1,
+          nav: false
+        },
+        1090: {
+          items: 3,
+          nav: false
+        }
+      }
+    })
+  })
+</script>
+<!-- //script for services -->
+
+<!-- script for tesimonials carousel slider -->
+<script>
+  $(document).ready(function () {
+    $("#owl-demo1").owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        736: {
+          items: 1,
+          nav: false
+        },
+        1000: {
+          items: 2,
+          nav: false,
+          loop: false
+        }
+      }
+    })
+  })
+</script>
+<!-- //script for tesimonials carousel slider -->
+
+<!-- video popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.popup-with-zoom-anim').magnificPopup({
+      type: 'inline',
+
+      fixedContentPos: false,
+      fixedBgPos: true,
+
+      overflowY: 'auto',
+
+      closeBtnInside: true,
+      preloader: false,
+
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'my-mfp-zoom-in'
+    });
+
+    $('.popup-with-move-anim').magnificPopup({
+      type: 'inline',
+
+      fixedContentPos: false,
+      fixedBgPos: true,
+
+      overflowY: 'auto',
+
+      closeBtnInside: true,
+      preloader: false,
+
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'my-mfp-slide-bottom'
+    });
+  });
+</script>
+<!-- //video popup -->
+
+<!-- stats number counter-->
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/jquery.countup.js"></script>
+<script>
+  $('.counter').countUp();
+</script>
+<!-- //stats number counter -->
+
+<!-- disable body scroll which navbar is in active -->
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<!-- disable body scroll which navbar is in active -->
+
+<!--/MENU-JS-->
+<script>
+  $(window).on("scroll", function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 80) {
+      $("#site-header").addClass("nav-fixed");
+    } else {
+      $("#site-header").removeClass("nav-fixed");
+    }
+  });
+
+  //Main navigation Active Class Add Remove
+  $(".navbar-toggler").on("click", function () {
+    $("header").toggleClass("active");
+  });
+  $(document).on("ready", function () {
+    if ($(window).width() > 991) {
+      $("header").removeClass("active");
+    }
+    $(window).on("resize", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+    });
+  });
+</script>
+<!--//MENU-JS-->
+
+<!-- bootstrap js -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
